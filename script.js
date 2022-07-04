@@ -18,11 +18,11 @@ const messages = {
 };
 
 // The main function,which picks the 3 random quotes and returns them to the user
-const messageGenerator = name => {
+const messageGenerator = () => {
     
     // Generate random index numbers for each of the quote catagories
     const quoteCategories = ['inspiration', 'film', 'philosophy'];
-    const greeting  = `Hey ${name}, I have selected the following quotes for you.  Enjoy!\n`;
+    const greeting  = `Hey, I have selected the following quotes for you. Enjoy!\n`;
     console.log(greeting);
     quoteCategories.forEach((item) => {
        const randIndex = Math.floor(Math.random() * messages[item].length);
@@ -32,4 +32,4 @@ const messageGenerator = name => {
     
 };
 
-messageGenerator('Jane');
+messageGenerator();
