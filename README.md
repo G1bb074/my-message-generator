@@ -1,6 +1,6 @@
 # my-message-generator
 
-Simple app to generate randomly generate a quote from each of the 3 categories:
+Simple app to randomly pick a quote from each of the 3 categories:
 
   * Inspirational
   * Film quote
